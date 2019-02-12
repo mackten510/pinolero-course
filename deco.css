@@ -1,0 +1,33 @@
+.flag-contianer {
+    display: grid;
+    grid-template-rows: repeat(3, minmax(5px, 1fr));
+}
+
+.banner-beach-blue {
+    background-color: blue;
+    height: 250px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+}
+
+.center-escudo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.detailed-surrounding {
+    
+}
+
+.escudo-img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.escudo-img img {
+    /*height: 15rem;*/
+    width:20rem;
+}
